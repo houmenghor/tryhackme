@@ -1,8 +1,9 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "release_date": "2026-03-16",
-  "download_url": "https://github.com/houmenghor/CyberLearningTool/releases/download/v1.0.0/TryHackMeAutoAnswer.exe",
+  "download_url": "https://github.com/houmenghor/tryhackme/releases/download/v1.0.1/TryHackMeAutoAnswer.exe",
   "changelog": [
-    "Initial release"
+    "Removed the old NSE Quiz tab from the main UI for a cleaner 1.0.1 release.",
+    "Renamed the TryHackMe profile tab to View Profile for clearer navigation."
   ]
 }
