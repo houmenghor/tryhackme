@@ -1,10 +1,16 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "release_date": "2026-03-16",
-  "download_url": "https://github.com/houmenghor/tryhackme/releases/download/v1.0.2/TryHackMeAutoAnswer.exe",
+  "download_url": "https://github.com/houmenghor/tryhackme/releases/download/v1.0.3/TryHackMeAutoAnswer.exe",
   "changelog": [
-    "Fixed: THM Tracker point count and progress bar now immediately update when you sync your profile from the View Profile tab — no more stale numbers after a sync.",
-    "Fixed: Points displayed during an active auto-answer session are now calculated from a frozen baseline captured at session start, preventing double-counting if a profile sync occurs mid-session.",
-    "Fixed: Skip This Version no longer blocks manual Check Update clicks — if you skipped a version, clicking Check Update will always show the update and let you install it."
+    "Added: Check All button for Free Rooms to quickly mark all free rooms as completed.",
+    "Improved: Free Rooms counter now tracks remaining rooms correctly and updates live after each completion.",
+    "Fixed: Rooms marked as done stay hidden consistently in THM Tracker (including after search/sort/filter changes).",
+    "Fixed: Completed free rooms are skipped from future auto-answer queues and not loaded again.",
+    "Improved: Live Search newly added rooms now respect done state immediately and stay hidden when already completed.",
+    "Improved: Checkbox UI visibility for clearer done-state indication.",
+    "Fixed: Prevented startup crash when free-room counter UI refreshed before free-room header initialization.",
+    "Fixed: Prevented KeyError when thm data is missing in progress state.",
+    "Fixed: Reduced Windows file-lock save failures by skipping unchanged section writes."
   ]
 }
