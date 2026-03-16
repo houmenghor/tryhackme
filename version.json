@@ -1,9 +1,10 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "release_date": "2026-03-16",
-  "download_url": "https://github.com/houmenghor/tryhackme/releases/download/v1.0.1/TryHackMeAutoAnswer.exe",
+  "download_url": "https://github.com/houmenghor/tryhackme/releases/download/v1.0.2/TryHackMeAutoAnswer.exe",
   "changelog": [
-    "Removed the old NSE Quiz tab from the main UI for a cleaner 1.0.1 release.",
-    "Renamed the TryHackMe profile tab to View Profile for clearer navigation."
+    "Fixed: THM Tracker point count and progress bar now immediately update when you sync your profile from the View Profile tab — no more stale numbers after a sync.",
+    "Fixed: Points displayed during an active auto-answer session are now calculated from a frozen baseline captured at session start, preventing double-counting if a profile sync occurs mid-session.",
+    "Fixed: Skip This Version no longer blocks manual Check Update clicks — if you skipped a version, clicking Check Update will always show the update and let you install it."
   ]
 }
