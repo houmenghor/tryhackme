@@ -1,17 +1,8 @@
 {
-  "version": "1.0.4",
-  "release_date": "2026-03-16",
-  "download_url": "https://github.com/houmenghor/tryhackme/releases/download/v1.0.4/TryHackMeAutoAnswer.exe",
+  "version": "1.0.5",
+  "release_date": "2026-03-19",
+  "download_url": "https://github.com/houmenghor/tryhackme/releases/download/v1.0.5/TryHackMeAutoAnswer.exe",
   "changelog": [
-    "បន្ថែមប៊ូតុង Sync API ដើម្បីទាញយកស្ថានភាពបន្ទប់ពីគណនី TryHackMe របស់អ្នកដោយផ្ទាល់ មុនពេល Auto Answer ដំណើរការ។",
-    "កែលម្អ Auto Answer ឲ្យ Sync ជាមុន ដើម្បីរំលងបន្ទប់ដែលបានចាប់ផ្តើម ឬបានបញ្ចប់រួច កាត់បន្ថយការធ្វើបន្ទប់ដដែលៗ។",
-    "បន្ថែម និងកែលម្អ Check All/Uncheck All ឲ្យមានលក្ខណៈ Dynamic ដោយយោងតាមទិន្នន័យ API ពិតពីគណនីអ្នកប្រើ។",
-    "កែលម្អ Uncheck All ឲ្យបង្ហាញតែបន្ទប់ Not Started វិញ ហើយរក្សាបន្ទប់ Started/Completed ទុកស្ថានភាពលាក់។",
-    "ជួសជុលស្ថានភាព Free Rooms counter ឲ្យគណនាចំនួននៅសល់ត្រឹមត្រូវជាងមុន នៅពេល Sync, Check និង Uncheck។",
-    "កែលម្អ Live Search ឲ្យជ្រើស/ដោះជ្រើសបន្ទប់បានងាយ និងបន្ថែមសារប្រាប់ស្ថានភាព (selected/loaded) ច្បាស់លាស់។",
-    "ជួសជុលការបន្ថែមបន្ទប់ពី Live Search ដោយទប់ស្កាត់ស្ទួន (deduplicate) ទាំង built-in list និង custom list។",
-    "កែលម្អសារបង្ហាញលទ្ធផល Add Room ឲ្យងាយយល់សម្រាប់អ្នកប្រើធម្មតា (បន្ថែមបានប៉ុន្មាន និងស្ទួនប៉ុន្មាន)។",
-    "កែលម្អភាពបត់បែន (reusable flow) នៃការទាញយកទិន្នន័យ API ដើម្បីអាចប្រើបានស្មើគ្នានៅ Check, Uncheck និង Auto Answer។",
-    "បង្កើនស្ថេរភាពទូទៅសម្រាប់អ្នកប្រើ EXE ដោយកាត់បន្ថយករណីមិនទទួលបានពិន្ទុព្រោះធ្វើបន្ទប់ដដែល។"
+    "This update improves Auto Answer reliability, fixes Copilot failure handling, adds better room filtering, and updates Live Search to match TryHackMe’s latest API."
   ]
 }
